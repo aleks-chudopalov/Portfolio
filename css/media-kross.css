@@ -1,0 +1,428 @@
+@media (max-width: 1400px) {
+
+
+.container{
+max-width: unset;
+margin: 0 14%;
+}
+
+.about-wel{
+background-size: contain;
+background-position: center;
+}
+
+.header-menu-item h3{
+font-size: 14px;
+}
+
+}
+
+@media (max-width: 1200px) {
+.about-wel {
+font-size: 55px;
+}
+
+.header-menu-item h3{
+font-size: 12px;
+}
+
+}
+
+
+@media (max-width: 1100px) {
+
+.header-menu-item h3{
+font-size: 11px;
+}
+
+.header-menu-list{ 
+gap: 15px;
+}
+
+.header-menu-item{
+padding: 10px 15px;
+}
+
+h2 {
+font-size: 30px;
+}
+
+.skills-main__inner {
+width: 90%;
+}
+
+.contact-cont p, .contact-cont a{
+font-size: 20px;						
+}
+
+}
+
+@media (max-width: 1000px) {
+
+.header-menu-item h3{
+font-size: 10px;
+}
+
+.header-logo {
+font-size: 55px;
+}
+
+.header-menu-item{
+padding: 5px 10px;
+}
+
+.header-menu-item i{
+font-size: 10px;
+}
+
+.header-menu {
+padding-top: 10px;
+padding-bottom: 15px;
+}
+
+.about-wel {
+font-size: 45px;
+}
+
+.about-photo {
+width: 35%;
+}
+
+.about-wel {
+padding: 60px 5px 50px 5px;
+}
+
+.about-text-1 {
+margin-top: 0;
+}
+
+.project-title{
+font-size: 20px;
+}
+
+.project-numb{
+font-size: 12px;
+}
+
+.project-tags span {
+font-size: 10px;
+}
+
+.project-git {
+font-size: 12px;
+}
+
+.project-text button{
+padding-left: 3px;
+padding-right: 3px;
+}
+
+}
+
+
+@media (max-width: 900px) {
+.about-wel {
+font-size: 35px;
+}
+
+.about-text-1 {
+font-size: 40px;
+}
+
+.about-text-2 {
+font-size: 16px;
+}
+
+.about-text-2 span {
+font-size: 20px;
+}
+
+.skills-tit{
+margin-top: -6px;
+}
+
+.project-title{
+font-size: 16px;
+}
+
+.project-numb{
+font-size: 9px;
+}
+
+.project-tags span {
+font-size: 6px;
+}
+
+.project-git {
+font-size: 8px;
+}
+
+}
+
+
+@media (max-width: 800px) {
+.about-wel {
+font-size: 25px;
+}
+
+.header-menu {
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+.header-logo {
+font-size: 40px;
+}
+
+.header-menu-item {
+gap: 5px;
+}
+
+.header-menu-item i{
+font-size: 8px;
+}
+
+.header-menu-item h3{
+font-size: 8px;
+}
+
+h2 {
+font-size: 22px;
+}
+
+.skills-tit i{
+font-size: 22px;
+}
+
+.contact__main {
+padding-left: 50px;
+padding-right: 50px;
+padding-top: 20px;
+padding-bottom: 30px;
+}
+
+.contact-cont p, .contact-cont a{
+font-size: 16px;						
+}
+
+}
+
+@media (max-width: 700px) {
+
+.about-wel {
+padding: 30px 5px 30px 5px;
+}
+
+.about-text-2 {
+font-size: 12px;
+}
+
+.about-text-2 span {
+font-size: 16px;
+}
+
+.header-menu-item h3{
+font-size: 6px;
+}
+
+.header-menu-list{ 
+gap: 6px;
+}
+
+.skills-main-item{
+/*flex: 0 0 22%;*/
+/*aspect-ratio: 20/18;*/
+min-width: 140px;
+/*width: 140px;*/
+}
+
+.project-item{
+height: unset;
+}
+
+.project-photo {
+max-height: 300px;
+}
+
+.project-git {
+font-size: 6px;
+}
+
+}
+
+@media (max-width: 600px) {
+
+.about-text-1 {
+font-size: 25px;
+}
+
+.about-text-2 {
+font-size: 9px;
+}
+
+.about-text-2 span {
+font-size: 14px;
+}
+
+.about__inner {
+padding-top: 15px;
+padding-bottom: 25px;
+}
+
+.about-text {
+padding-left: 22px;
+}
+
+.header-menu-item{
+padding: 5px 6px;
+-webkit-box-shadow: 2px 2px 0 0 white;
+        box-shadow: 2px 2px 0 0 white;
+}
+
+.header-menu{
+padding-left: 15px;
+padding-right: 15px;
+}
+
+.skill-logo {
+height: 80px;
+}
+
+.skills-main__inner {
+row-gap: 30px;
+}
+
+.skills-main__inner {
+padding: 20px 0;
+}
+
+.project-item {
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+    -ms-flex-direction: column;
+        flex-direction: column;
+}
+
+.project-photo {
+ max-height: 200px;
+}
+
+.project-title{
+font-size: 20px;
+}
+
+.project-numb{
+font-size: 12px;
+}
+
+.project-tags span {
+font-size: 10px;
+}
+
+.project-git {
+font-size: 12px;
+}
+
+.contact-cont p, .contact-cont a{
+font-size: 12px;						
+}
+
+}
+
+@media (max-width: 500px) {
+
+.header-menu-item h3{
+font-size: 4px;
+}
+
+.header-menu-item{
+border: 1px solid var(--black);
+padding: 3px 4px;
+}
+
+.header-menu-item i{
+font-size: 4px;
+}
+
+.header-logo {
+font-size: 25px;
+}
+
+.header-menu {
+padding-top: 2px;
+padding-bottom: 8px;
+}
+
+.about-wel {
+font-size: 20px;
+}
+
+.about-text-2 span {
+font-size: 12px;
+}
+
+.about-photo {
+margin-top: 15px;
+}
+
+h2 {
+font-size: 15px;
+}
+
+.skills-tit i{
+font-size: 15px;
+}
+
+
+.skills-main-item{
+min-width: 100px;
+}
+
+.contact-cont p, .contact-cont a{
+font-size: 9px;						
+}
+
+.contact__main {
+padding-left: 30px;
+padding-right: 30px;
+}
+
+}
+
+@media (max-width: 400px) {
+
+.about-wel {
+font-size: 14px;
+}
+
+.about-text-1 {
+font-size: 20px;
+}
+
+.about-text-2 {
+font-size: 6px;
+}
+
+.about-text-2 span {
+font-size: 8px;
+}
+
+.about-wel {
+padding: 15px 5px 15px 5px;
+}
+
+.project-title{
+font-size: 15px;
+}
+
+.project-numb{
+font-size: 8px;
+}
+
+.project-tags span {
+font-size: 6px;
+}
+
+
+
+}

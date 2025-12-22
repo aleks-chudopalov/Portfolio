@@ -157,7 +157,7 @@ background: url('../img/obl.png') no-repeat;
 background-size: cover;
 
 align-self: flex-start;
-/*animation: focus-in-expand 2.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both;*/
+/*animation: focus-in-expand 2.0s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s both;*/
 }
 
 @keyframes focus-in-expand {
@@ -480,4 +480,5 @@ color: var(--black);
 .contact-cont span{
 color: var(--black);
 }
+
 

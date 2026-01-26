@@ -331,6 +331,11 @@ font-size: 12px;
 
 @media (max-width: 500px) {
 
+body{ 
+	background-color: #F4F4F2;
+    /*background: url([URL]) center/cover no-repeat;*/
+}
+
 .header-menu-item h3{
 font-size: 4px;
 }

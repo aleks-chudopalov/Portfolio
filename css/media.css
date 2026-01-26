@@ -332,8 +332,10 @@ font-size: 12px;
 @media (max-width: 500px) {
 
 body{ 
-	background-color: #F4F4F2;
-    /*background: url([URL]) center/cover no-repeat;*/
+	/*background-color: #F4F4F2;*/
+    background: url('../img/lovep.jpg')  no-repeat;
+background-attachment: unset;
+ /*background-attachment: scroll !important;*/
 }
 
 .header-menu-item h3{
